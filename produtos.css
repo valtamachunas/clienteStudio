@@ -2,7 +2,7 @@ body{
     background: #ffdada;
 }
 header {
-    background: rgb(230, 241, 234);
+    background: url("3816202.jpg");
     padding: 20px 0;
 }
 
@@ -31,6 +31,11 @@ nav a {
     font-size: 22px;
 }
 
+nav a:hover {
+    color: rgb(200, 51, 219);
+    text-decoration: underline deeppink;
+}
+
 .produtos {
     width: 1200px;
     margin: 0 auto;
@@ -48,6 +53,22 @@ nav a {
     border: 2px solid #000000;
     border-radius: 20px;
 }
+
+.produtos li:hover {
+    border-color: deeppink;
+    border-radius: 80%;
+    border-style: solid;
+}
+
+.produtos li:hover h2 {
+    font-size: 24px;
+}
+
+.produtos li:active {
+    border-color: rgb(200, 51, 219);
+    border-style: solid;
+}
+
 .produtos :nth-child(2){
     padding: 34px 20px;
 }
@@ -66,4 +87,10 @@ nav a {
     padding: 10px 0;
     font-weight: bold;
     margin: 10px 0;
+}
+
+footer {
+    text-align: center;
+    background: url("3623804.jpg");
+    padding: 40px 0;
 }
